@@ -1,0 +1,31 @@
+.whatsapp-chat-icon {
+  position: fixed;
+  right: 70px;
+  bottom: 70px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: transparent;
+  border-radius: 50%;
+  background-color: rgb(38, 212, 102);
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-chat-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+@media (max-width: 600px) {
+  .whatsapp-chat-icon {
+    right: 22px;
+    bottom: 22px;
+    width: 44px;
+    height: 44px;
+  }
+}

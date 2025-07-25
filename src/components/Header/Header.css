@@ -1,0 +1,69 @@
+/* Mobile menu button styles */
+.menu-btn {
+  background-color: var(--appColor);
+  /* background-color: red; */
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bars-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Close icon for mobile menu */
+.close-icon {
+  position: absolute;
+  top: 16px;
+  right: 1px;
+  cursor: pointer;
+  z-index: 1001;
+  color: white;
+  /* background-color: red; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+}
+.logo {
+  width: 5rem;
+  /* background-color: red; */
+  /* height: 2rem; */
+  /* position: relative;
+  top: -1rem; */
+  cursor: pointer;
+  z-index: 1;
+}
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.header-menu > li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+/* ---------------------------Media-------------- */
+@media screen and (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 2rem;
+  }
+  .logo {
+    position: relative;
+    top: -1rem;
+  }
+}

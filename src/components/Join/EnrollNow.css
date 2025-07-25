@@ -1,0 +1,130 @@
+.enroll-error {
+  border: 2px solid #d32f2f !important;
+}
+/* EnrollNow.css - Responsive, accessible, app-themed form styles */
+
+.enroll-section {
+  /* background: var(--app- bg, #fff); */
+  /* padding: 2rem 1rem; */
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  width: 40rem;
+  max-width: 420px;
+  margin: 2rem auto;
+  position: relative;
+  right: 7rem;
+  top: -2rem;
+  font-family: inherit;
+}
+
+.enroll-section h1 {
+  /* color: var(--primary, #ff5722); */
+  text-align: center;
+  /* margin-bottom: 1rem; */
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.enroll-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.enroll-form label {
+  font-weight: 500;
+  color: var(--text, #222);
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+}
+
+.enroll-form input,
+.enroll-form textarea {
+  padding: 0.7rem 1rem;
+  /* border: 1.5px solid var(--primary, #ff5722); */
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: var(--input-bg, #fafafa);
+  color: var(--text, #222);
+  transition: border 0.2s;
+  resize: none;
+}
+
+.enroll-form input:focus,
+.enroll-form textarea:focus {
+  outline: none;
+  border-color: var(--accent, #ff9800);
+}
+
+.enroll-form textarea {
+  min-height: 70px;
+  max-height: 180px;
+}
+
+.enroll-form .enroll-btn {
+  background: linear-gradient(
+    90deg,
+    var(--primary, #ff5722),
+    var(--accent, #ff9800)
+  );
+  color: #fff;
+  border: none;
+  padding: 0.9rem 0;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 0.5rem;
+}
+
+.enroll-form .enroll-btn:active {
+  transform: scale(0.97);
+}
+
+.enroll-message {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.enroll-message.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.enroll-message.success {
+  color: #43a047;
+}
+
+.enroll-message.error {
+  color: #fffefe;
+}
+
+@media (max-width: 600px) {
+  .enroll-section {
+    padding: 1.2rem 0.3rem;
+    border-radius: 0.7rem;
+    right: 0;
+  }
+  .enroll-section h2 {
+    font-size: 1.3rem;
+  }
+  .enroll-form input,
+  .enroll-form textarea {
+    font-size: 0.97rem;
+    padding: 0.6rem 0.7rem;
+  }
+  .enroll-form .enroll-btn {
+    font-size: 1rem;
+    padding: 0.7rem 0;
+  }
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.568);
+}
