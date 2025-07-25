@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vprofitness/static/css/main.a86963ce.css",
+    "main.js": "/vprofitness/static/js/main.0fcdb3c5.js",
+    "static/media/coach5-preview.png": "/vprofitness/static/media/coach5-preview.7970fee7d6651219993a.png",
+    "static/media/coach2-preview.png": "/vprofitness/static/media/coach2-preview.88c1811e6ccbad554fdf.png",
+    "static/media/coach6-preview.png": "/vprofitness/static/media/coach6-preview.9e6c93a77e60ff9589ff.png",
+    "static/media/client2.jpeg": "/vprofitness/static/media/client2.521a74290a0909f1b881.jpeg",
+    "static/media/coach-removebg.png": "/vprofitness/static/media/coach-removebg.e1f82e3f1a82f2ff0381.png",
+    "static/media/coach9.jpeg": "/vprofitness/static/media/coach9.c1a6adf8670ab46d17aa.jpeg",
+    "static/media/client3.jpeg": "/vprofitness/static/media/client3.eae999b4b1c6435a371e.jpeg",
+    "static/media/hero-img-removebg-preview.png": "/vprofitness/static/media/hero-img-removebg-preview.c90330e678e56c94b75b.png",
+    "static/media/client1.jpeg": "/vprofitness/static/media/client1.92ee5595d7ac98e39570.jpeg",
+    "static/media/hero_image_back.png": "/vprofitness/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/google.png": "/vprofitness/static/media/google.e6ac2f45ac808a865a66.png",
+    "static/media/youtube.png": "/vprofitness/static/media/youtube.3433e9ef3192ec43137a.png",
+    "index.html": "/vprofitness/index.html",
+    "main.a86963ce.css.map": "/vprofitness/static/css/main.a86963ce.css.map",
+    "main.0fcdb3c5.js.map": "/vprofitness/static/js/main.0fcdb3c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a86963ce.css",
+    "static/js/main.0fcdb3c5.js"
+  ]
+}
